@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1107158074792106307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 294628209708762105}
+  - component: {fileID: 3727117227050077276}
+  - component: {fileID: 1467494079534200982}
+  - component: {fileID: 3538470793463382265}
+  m_Layer: 0
+  m_Name: Skyscraper2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &294628209708762105
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107158074792106307}
+  m_LocalRotation: {x: 0, y: 0.00000015099582, z: -0, w: 1}
+  m_LocalPosition: {x: -51.9, y: -6.5, z: 67.2}
+  m_LocalScale: {x: 3.3234828, y: 1.8055028, z: 8.687569}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3727117227050077276
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107158074792106307}
+  m_Mesh: {fileID: 6224278438860794750, guid: bdf48a24794322c45b0cbd8371848219, type: 3}
+--- !u!23 &1467494079534200982
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107158074792106307}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -4504317916317808923, guid: bdf48a24794322c45b0cbd8371848219, type: 3}
+  - {fileID: -1556001981125979519, guid: bdf48a24794322c45b0cbd8371848219, type: 3}
+  - {fileID: 4132316340332606792, guid: bdf48a24794322c45b0cbd8371848219, type: 3}
+  - {fileID: 187106415177163282, guid: bdf48a24794322c45b0cbd8371848219, type: 3}
+  - {fileID: 667168355063902804, guid: bdf48a24794322c45b0cbd8371848219, type: 3}
+  - {fileID: 5278208142298076353, guid: bdf48a24794322c45b0cbd8371848219, type: 3}
+  - {fileID: 8285840578591106214, guid: bdf48a24794322c45b0cbd8371848219, type: 3}
+  - {fileID: 7993982598810627253, guid: bdf48a24794322c45b0cbd8371848219, type: 3}
+  - {fileID: 1110233775959259594, guid: bdf48a24794322c45b0cbd8371848219, type: 3}
+  - {fileID: 7498461928983958705, guid: bdf48a24794322c45b0cbd8371848219, type: 3}
+  - {fileID: -5605289326131794027, guid: bdf48a24794322c45b0cbd8371848219, type: 3}
+  - {fileID: 637949407474519127, guid: bdf48a24794322c45b0cbd8371848219, type: 3}
+  - {fileID: -4246479402191905792, guid: bdf48a24794322c45b0cbd8371848219, type: 3}
+  - {fileID: -565984873938224308, guid: bdf48a24794322c45b0cbd8371848219, type: 3}
+  - {fileID: 8981553099096298666, guid: bdf48a24794322c45b0cbd8371848219, type: 3}
+  - {fileID: -3281388508790073908, guid: bdf48a24794322c45b0cbd8371848219, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &3538470793463382265
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107158074792106307}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6676754707903670360, guid: 4a4bcc55fa31c6d43ad69539701c80fa, type: 3}
